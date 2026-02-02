@@ -3,14 +3,14 @@ import Reveal from "../ui/Reveal";
 
 export default function Hero() {
   return (
-    <section className="min-h-[85vh] flex flex-col justify-center items-center text-center px-6 relative overflow-hidden bg-surface">
+    <section className="min-h-[85vh] flex flex-col justify-center items-center text-center px-6 relative bg-surface">
       <div
         className="absolute inset-0 opacity-[0.1] pointer-events-none"
         style={{
           backgroundImage: "radial-gradient(#0A3D62 1px, transparent 1px)",
           backgroundSize: "32px 32px",
         }}
-      ></div>
+      />
 
       <Reveal>
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm mb-8">
